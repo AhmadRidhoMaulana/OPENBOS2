@@ -1,0 +1,581 @@
+@font-face {
+	font-family:'Tuakngfont-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url(img/Tuakngfont-Regular.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .container {
+    height:80px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#316B83
+  }
+  .judul {
+    position: relative;
+    bottom: 20px;
+    font-size: 40px;
+    font-family: 'Tuakngfont-Regular';
+    color: #ffffff;
+    left: 10px;
+}
+ 
+  
+  
+  header img{
+    position: relative;
+    bottom: 5px;
+  } 
+  header ul {
+    float: right;
+  }
+  header ul li {
+    position: relative;
+    display: inline-block;
+    bottom:  15px;
+  }
+  header ul li a {
+    position: relative;
+    font-size: 20px;
+    bottom: 10px;
+    padding: 0 25px;
+    display: inline-block;
+    color:#eee;
+    
+    
+  }
+  
+  ul li a {
+    font-size: 25px;
+  }
+  li img{
+    position: relative;
+    bottom:-1px;
+    margin-right: 10px;
+  }
+  .rounded-image{
+    width:40px;
+    height:40px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+  }
+.banner {
+    
+    height: 891px;
+    background-image: url('img/qeqe.jpg');
+    background-size: cover;
+    background-position: 0 -150px ;
+}
+h3 {
+    font-size: 30px;
+    font-family:'Tuakngfont-Regular' ;
+    
+  }
+  
+  section {
+    padding: 0 0;
+  
+  }
+  section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+.bawah{
+    width:100%;
+    height:80px;
+    background-color: #FFCE31;
+}
+.peluk{
+    position: relative;
+    margin: 5% auto;
+    height: 280px;
+    width:0px;
+   
+    
+
+}
+.cabang{
+    
+    position: relative;
+    bottom: 60px;
+    width: 350px;
+    right: 560px;
+    height:300px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 20px;
+  
+
+    
+}
+.cabang img{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+h6 {
+    font-size:30px;
+    font-family: 'Tuakngfont-Regular';
+    position:relative;
+    left:140px;
+    bottom: 100px;
+}
+p { font-size: 20px;
+    font-family: 'Verdana';
+    position: relative;
+    left:150px;
+    bottom: 90px;
+
+}
+.tombol{
+    position:relative;
+    bottom: 100px;
+    right:100px;
+    margin:20% auto;
+    margin-bottom: 50px;
+    width: 220px;
+    height: 50px;
+    background: #316B83;
+    text-align:center;
+    margin-left: 150px;
+    border: none;
+    border-radius: 2px;
+    color:rgb(0, 0, 0);
+    font-family: 'Verdana';
+    transition: 0,2% ease;
+    cursor:pointer;
+    font-size: 30px;
+
+}
+
+.cabang1{
+    
+    position: relative;
+    left:-190px;
+    top:-368px;
+    
+    height: 300px;
+    width:340px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 20px;
+      
+}
+.cabang1 img{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.cabang2{
+    
+    position: relative;
+    margin-left: 170px;
+    top:-675px;
+    
+    height: 300px;
+    width:340px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 20px;
+      
+}
+
+.cabang2 img{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.containe-t h3 {
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+}
+.bawah1{
+    position: relative;
+    
+    height: 400px;
+    width:100%;
+    background-color:#FFCE31 ;
+    
+
+}
+.tombol1{
+    position:relative;
+    top: 50px;
+    right:100px;
+    
+    
+    width: 350px;
+    height: 105px;
+    background: #316B83;
+    text-align:center; 
+    left: 50px;
+    
+    
+    color:rgb(0, 0, 0);
+    font-family: 'Verdana';
+    
+    
+    font-size: 30px;
+    
+}
+.tombol1 img{
+    position:relative;
+    left: -50px;
+    top:10px;
+    
+}
+.tombol1 a{
+    position: relative;
+    bottom: 15px;
+    font-size: 30px;
+    font-family: 'PT Sans';
+    font-weight: bold;
+    
+}
+.tombol2{
+    position:relative;
+    top: 150px;
+    right:100px; 
+    width: 350px;
+    height: 105px;
+    background: #316B83;
+    text-align:center;
+    left: 50px;
+    color:rgb(0, 0, 0);
+    font-family: 'Verdana';
+    
+    font-size: 30px;
+}
+.tombol2 img{
+    position:relative;
+    left: -30px;
+    top:10px;
+}
+.tombol2 a{
+    position: relative;
+    bottom: 40px;
+    font-size: 30px;
+    font-family: 'PT Sans';
+    font-weight: bold;
+}
+.tombol3{
+    position:relative;
+    top: -161px;
+    left:500px;
+
+
+    width: 350px;
+    height: 105px;
+    background: #316B83;
+    text-align:center;
+    
+
+    color:rgb(0, 0, 0);
+    font-family: 'Verdana';
+
+    font-size: 30px;
+    
+}
+.tombol3 img{
+    position:relative;
+    left: -20px;
+    top:20px;
+}
+.tombol3 a{
+    position: relative;
+    bottom: 10px;
+    font-size: 30px;
+    font-family: 'PT Sans';
+    left: 0px;
+    font-weight: bold;
+}
+.tombol4{
+    position:relative;
+    top: -60px;
+    left:500px;
+
+
+    width: 350px;
+    height: 105px;
+    background: #316B83;
+    text-align:center;
+    
+
+    color:rgb(0, 0, 0);
+    font-family: 'Verdana';
+
+    font-size: 30px;
+    
+}
+.tombol4 img{
+    position:relative;
+    left: -10px;
+    top:10px;
+}
+.tombol4 a{
+    position: relative;
+    bottom: 20px;
+    font-size: px;
+    font-family: 'PT Sans';
+    left: -10px;
+    font-weight: bold;
+}
+.tombol5{
+    position:relative;
+    bottom: 370px;
+    left:950px;
+
+
+    width: 350px;
+    height: 105px;
+    background: #316B83;
+    text-align:center;
+    
+
+    color:rgb(0, 0, 0);
+    font-family: 'Verdana';
+
+    font-size: 30px;
+    
+}
+.tombol5 img{
+    position:relative;
+    left: -10px;
+    top:10px;
+}
+.tombol5 a{
+    position: relative;
+    bottom: 20px;
+    font-size: 30px;
+    font-family: 'PT Sans';
+    left: -10px;
+    font-weight: bold;
+}
+.tombol6{
+    position:relative;
+    bottom: 270px;
+    left:950px;
+
+
+    width: 350px;
+    height: 105px;
+    background: #316B83;
+    text-align:center;
+    
+
+    color:rgb(0, 0, 0);
+    font-family: 'Verdana';
+
+    font-size: 30px;
+    
+}
+.tombol6 img{
+    position:relative;
+    left: -70px;
+    top:10px;
+}
+.tombol6 a{
+    position: relative;
+    bottom: 15px;
+    font-size: 30px;
+    font-family: 'PT Sans';
+    left: -10px;
+    font-weight: bold;
+}
+.contai-t h3 {
+    font-size: 30px;
+    position: relative;
+    bottom: -100px;
+    text-align: center;
+    margin-bottom: 50px ;
+}
+ .foto li.ter img {
+    position: relative;
+    left: 100px;
+
+    bottom: -100px;
+    
+}
+.foto li.ter a{
+    position: relative;
+    top: 140px;
+
+    border-bottom: 5px solid #316B83;
+    border-top: 5px solid #316B83;
+    border-right: 235px solid #316B83;
+    
+    
+    text-align: left;  
+    font-size: 40px;
+    font-family: 'Regular';
+    background: #316B83;
+    right: 305px;
+
+    color:rgb(0, 0, 0);
+}
+.foto li.tet img {
+    position: relative;
+    left: 750px;
+
+    top: -205px;
+    
+}
+.foto li.tet a{
+    position: relative;
+    top: -175px;
+
+    border-bottom: 5px solid #316B83;
+    border-top: 5px solid #316B83;
+    border-right: 235px solid #316B83;
+    
+    text-align: left;  
+    font-size: 40px;
+    font-family: 'Regular';
+    background: #316B83;
+    left: 345px;
+
+    color:rgb(0, 0, 0);
+} 
+.foto li.tur img {
+    position: relative;
+    left: 100px;
+
+    top: -40px;
+    
+}
+.foto li.tur a{
+    position: relative;
+    top: -30px;
+
+    border-bottom: 5px solid #316B83;
+    border-top: 5px solid #316B83;
+    border-right: 230px solid #316B83;
+    
+    text-align: left;  
+    font-size: 40px;
+    font-family: 'Regular';
+    background: #316B83;
+    right: 300px;
+
+    color:rgb(0, 0, 0);
+}
+.foto li.tut img {
+    position: relative;
+    left: 750px;
+
+    top: -350px;
+    
+}
+.foto li.tut a{
+    position: relative;
+    top: -340px;
+
+    border-bottom: 5px solid #316B83;
+    border-top: 5px solid #316B83;
+    border-right: 235px solid #316B83;
+    
+    text-align: left;  
+    font-size: 40px;
+    font-family: 'Regular';
+    background: #316B83;
+    left: 345px;
+
+    color:rgb(0, 0, 0);
+} 
+
+.penutup img{
+    position: relative;
+    
+    margin-top:-10%;
+    bottom: 10px;
+}
+.about{
+    position: relative;
+width:100%;
+height:612px;
+background-color: #FFCE31;
+bottom: 10px;
+margin-top: 5%;
+}
+ ul li h1{
+    position: relative;
+    top: 70px;
+    font-size: 48px;
+    font-family:'Elephant' ;
+    text-align: center;
+    margin:5% auto;
+    padding: 1px 0;
+    font-size: 30px;
+    color:#000000  ;
+}
+
+.f1{
+    bottom: -30px;
+    position: relative;
+    font-family:'Verdana' ;
+    font-size: 30px;
+    color:#000000;
+    left: 0px;
+    padding: 30px 50px;
+}
+
+.f2{
+    bottom: 250px;
+    position: relative;
+    font-family:'Verdana' ;
+    font-size: 30px;
+    color:#000000;
+    left: 0px;
+    padding: 30px 80px;
+    text-align: right;
+}
+.akhir{
+    position: relative;
+    width:100%;
+    height:200px;
+    background-color: #316B83;
+    margin-top: -90px;
+    margin-bottom: 50px;
+    
+}
+.husni{
+    position: relative;
+    bottom: 10px;
+
+    font-size: 48px;
+    font-family:'Verdana' ;
+    
+    padding: 30px 80px;
+    text-align: left;
+    font-size: 40px;
+    color:#ffffff  ;
+}
+.ridho{
+    position: relative;
+    top: -120px;
+
+    font-size: 48px;
+    font-family:'Verdana' ;
+    
+    padding: 30px 140px;
+    text-align: right;
+    font-size: 40px;
+    color:#ffffff  ;
+}

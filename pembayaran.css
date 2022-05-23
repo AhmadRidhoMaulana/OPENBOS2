@@ -1,0 +1,73 @@
+@font-face {
+	font-family: 'Tuakngfont-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url(img/Tuakngfont-Regular.ttf);
+}
+
+.navbar {
+	background-color: #316b83;
+	height: 80px;
+}
+ul li a:hover {
+	background-color: rgb(214, 201, 16);
+	transition: 0.5s;
+}
+ul li a {
+	font-size: 20px;
+	padding: 5px;
+	margin-left: 20px;
+}
+.navbar-brand {
+	font-family: 'Tuakngfont-Regular';
+	position: relative;
+	font-size: 40px;
+	left: -100px;
+}
+
+ul img {
+	position: relative;
+	width: 40px;
+	bottom: -3px;
+	height: 40px;
+	margin-left: 3px;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+}
+
+.row {
+	padding-left: 10px;
+	width: 1360px;
+}
+.row h6 {
+	margin-top: 62px;
+	font-family: Roboto;
+}
+input {
+	width: 400px;
+	height: 40px;
+}
+.col-md-auto {
+	width: 75px;
+	height: 740px;
+	background-color: #ffce31;
+}
+.menu {
+	font-size: 20px;
+	font-family: Roboto;
+	margin-top: 20px;
+}
+button {
+	margin: 100px;
+	width: 300px;
+	height: 100px;
+	background-color: #31d298;
+}
+button:hover {
+	background-color: #ffce31;
+	transition: 0.5s;
+}
+.btn {
+	background-color: #31d298;
+}

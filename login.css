@@ -1,0 +1,270 @@
+@font-face {
+	font-family:'Tuakngfont-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url(img/Tuakngfont-Regular.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .container {
+    height:80px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#316B83
+  }
+  .judul {
+    position: relative;
+    bottom: 20px;
+    font-size: 40px;
+    font-family: 'Tuakngfont-Regular';
+    color: #ffffff;
+    left: 10px;
+}
+ 
+  
+  
+  header img{
+    position: relative;
+    bottom: 5px;
+  } 
+  header ul {
+    float: right;
+  }
+  header ul li {
+    position: relative;
+    display: inline-block;
+    bottom:  15px;
+  }
+  header ul li a {
+    position: relative;
+    font-size: 20px;
+    bottom: 10px;
+    padding: 0 25px;
+    display: inline-block;
+    color:#eee;
+    
+    
+  }
+  
+  ul li a {
+    font-size: 25px;
+  }
+  li img{
+    position: relative;
+    bottom:-1px;
+    margin-right: 10px;
+  }
+  .rounded-image{
+    width:40px;
+    height:40px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+  }
+
+body{
+  margin:0;
+  padding:0;
+  background: #efefef;
+  font-size: 16px;
+  color: #777;
+  font-family: sans-serif;
+  font-weight:300;
+}
+#login-box{
+  position: relative;
+  margin: 5% auto;
+  height: 623px;
+  width:1296px;
+  background: #ffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+  .left-box{
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height:400px
+  }
+  h1{
+    position: relative;
+    margin:20% auto;
+    font-weight:300;
+    font-size: 50px;
+    
+    text-align: center;
+    right: -150px ;
+    margin-right: -100px;
+    padding: 7px 0;
+    color:#000000  ;
+  }
+  .icon {
+    position: relative;
+    margin:-10% auto;
+    
+    position: relative;
+    left:350px;
+    margin-left:-100px;
+    color: black;
+    font-size: 40px;
+    
+  
+  }
+  input[type=text] {
+    position: relative;
+    width: 470px;
+    height:50px;
+    padding: 15px 20px;
+    margin: 12px 0;
+    right:-400px;
+    margin-left: -335px;
+    box-sizing: border-box;
+    border: none;
+    background: #8e9190;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+  }
+  
+      
+  
+  input[type="submit"]{
+    position: relative;
+    top: 100px;
+    
+    margin:20% auto;
+    width: 258px;
+    height: 45px;
+    background: #e7c964;
+    right: -240px ;
+    margin-left: -200px;
+    border: none;
+    
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+    transition: 0,2% ease;
+    cursor:pointer;
+    font-size: 24px;
+  
+  }
+  input[type="submit"]:hover,
+  input[type="submit"]:focus{
+    background:#e7c964;
+    transition: 0.2% ease;
+  }
+.right-box{
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding:40px;
+  width: 598px;
+  height: 623px;
+  background-color:#316B83;
+  background-size:cover;
+  background-position:center;
+
+
+}
+.right-box .signinwith {
+  position: relative;
+  bottom: 90px;
+  display: block;
+  margin:50% auto;
+  margin-bottom:80px;
+  font-size: 50px;
+  color: #ffff;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0,6);
+}
+.right-box h5{
+  position: relative;
+  bottom: 120px;
+  display: block;
+
+  margin-bottom:80px;
+  font-size: 20px;
+  color: #ffff;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0,6);
+}
+button.signup{
+  position: relative;
+  bottom: 300px;
+  margin:50% auto;
+  margin-bottom: 50px;
+  width: 258px;
+  height: 45px;
+  background: #e7c964;
+  
+  margin-left: 150px;
+  border: none;
+  border-radius: 2px;
+  color:rgb(0, 0, 0);
+  font-family: sans-serif;
+  transition: 0,2% ease;
+  cursor:pointer;
+  font-size: 24px;
+
+}
+.tombol a{
+  position: relative;
+    top: 80px;
+    
+    margin:20% auto;
+    width: 258px;
+    height: 45px;
+    background: #e7c964;
+    
+    margin-left: 180px;
+    border-bottom: 10px solid #e7c964;
+    border-top: 10px solid #e7c964;
+    border-right: 100px solid #e7c964;
+    border-left: 100px solid #e7c964;
+    
+    
+    color:rgb(0, 0, 0);
+    font-family: sans-serif;
+    transition: 0,2% ease;
+    cursor:pointer;
+    font-size: 24px;
+  
+}
+.tombol2 a{
+  position: relative;
+  top: 510px;
+  
+  margin:20% auto;
+  width: 258px;
+  height: 45px;
+  background: #e7c964;
+  
+  margin-left: 900px;
+  border-bottom: 10px solid #e7c964;
+  border-top: 10px solid #e7c964;
+  border-right: 100px solid #e7c964;
+  border-left: 100px solid #e7c964;
+  
+  
+  color:rgb(0, 0, 0);
+  font-family: sans-serif;
+  transition: 0,2% ease;
+  cursor:pointer;
+  font-size: 24px;
+
+}

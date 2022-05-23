@@ -1,0 +1,571 @@
+@font-face {
+	font-family:'Tuakngfont-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url(img/Tuakngfont-Regular.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .container {
+    height:80px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#316B83
+  }
+  .judul {
+    position: relative;
+    bottom: 20px;
+    font-size: 40px;
+    font-family: 'Tuakngfont-Regular';
+    color: #ffffff;
+    left: 10px;
+}
+ 
+  
+  
+  header img{
+    position: relative;
+    bottom: 5px;
+  } 
+  header ul {
+    float: right;
+  }
+  header ul li {
+    position: relative;
+    display: inline-block;
+    bottom:  15px;
+  }
+  header ul li a {
+    position: relative;
+    font-size: 20px;
+    bottom: 10px;
+    padding: 0 25px;
+    display: inline-block;
+    color:#eee;
+    
+    
+  }
+  
+  ul li a {
+    font-size: 25px;
+  }
+  li img{
+    position: relative;
+    bottom:-1px;
+    margin-right: 10px;
+  }
+  .rounded-image{
+    width:40px;
+    height:40px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+  }
+  .gambar{
+    position: relative;
+    margin: 5% auto;
+    height: 623px;
+    width:1296px;
+    background: #ffff;
+    
+
+  }
+  .setan{
+      position: relative;
+      left: 100px;
+      bottom: 150px;
+  }
+  .iblis{
+    position: relative;
+    right: -265px;
+    top: -10px;
+}
+ul h5{
+    position: relative;
+    font-size: 50px;
+    font-family: "Regular";
+    bottom: 100px;
+    margin-left: 130px;
+    
+    
+}
+.rangkap{
+  position: relative;
+  margin: 5% auto;
+  height: 1300px;
+  width:1300px;
+
+
+
+}
+.bd{
+    position: relative;
+    bottom: 30px;
+    margin: 5% auto;
+    height: 70px;
+    width:955px;
+    background: #f7df96;
+    margin-left: -80px;
+
+
+}
+.bd h5{
+    position: relative;
+    bottom: -20px;
+    font-size: 30px;
+    left: 80px;
+    
+    
+}.bt{
+position: relative;
+bottom: 1920px;
+
+margin-left:890px ;
+
+height: 1100px;
+width:430px;
+background: #ffff;
+box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+border-bottom: 2px solid black;
+border-top: 2px solid black;
+border-right: 2px solid black;
+border-left: 2px solid black;
+}
+p{
+  position: relative;
+  bottom: 100px;
+  
+  font-size: 22px;
+  font-family: "Regular";
+  
+  
+
+
+}
+.bapak1 {
+position: relative;
+bottom: 60px;
+
+
+height: 190px;
+width:420px;
+background: #f7df96;
+box-shadow: 0 2px 4px #f7df96;
+border-bottom: 2px solid #f7df96;
+border-top: 2px solid #f7df96;
+border-right: 2px solid #f7df96;
+border-left: 2px solid #f7df96;
+}
+.bapak1 img.poto1{
+  position: relative;
+  top: 30px;
+  left: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius:10px;
+}
+.bapak1 h6{
+  position: relative;
+  font-size: 25px;
+  font-family: "Roboto";
+  left: 200px;
+  bottom: 100px;
+}
+.jj{
+  position: relative;
+  bottom: 100px;
+  left: 200px;
+  
+}
+p .jj{
+  position: relative;
+  left: 200px;
+}
+.gh{
+  position: relative;
+  width: 168px;
+  height: 35px;
+  left: 200px;
+  bottom: 80px;
+  background-color: #316B83;
+  font-size: 24px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+.bapak2 {
+  position: relative;
+  bottom: 10px;
+  
+  
+  height: 190px;
+  width:420px;
+  background: #f7df96;
+  box-shadow: 0 2px 4px #f7df96;
+  border-bottom: 2px solid #f7df96;
+  border-top: 2px solid #f7df96;
+  border-right: 2px solid #f7df96;
+  border-left: 2px solid #f7df96;
+  }
+  .bapak2 img.poto2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+  }
+  .bapak2 h6{
+    position: relative;
+    font-size: 25px;
+    font-family: "Roboto";
+    left: 200px;
+    bottom: 100px;
+  }
+  .gg{
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+    
+  }
+  p .jj{
+    position: relative;
+    left: 200px;
+  }
+  .gh{
+    position: relative;
+    width: 168px;
+    height: 35px;
+    left: 200px;
+    bottom: 80px;
+    background-color: #316B83;
+    font-size: 24px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+  }
+  
+.bapak3 {
+  position: relative;
+  bottom: -40px;
+  
+  
+  height: 190px;
+  width:420px;
+  background: #f7df96;
+  box-shadow: 0 2px 4px #f7df96;
+  border-bottom: 2px solid #f7df96;
+  border-top: 2px solid #f7df96;
+  border-right: 2px solid #f7df96;
+  border-left: 2px solid #f7df96;
+  }
+  .bapak3 img.poto3{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+  }
+  .bapak3 h6{
+    position: relative;
+    font-size: 25px;
+    font-family: "Roboto";
+    left: 200px;
+    bottom: 100px;
+  }
+  .gg{
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+    
+  }
+  p .jj{
+    position: relative;
+    left: 200px;
+  }
+  .gh{
+    position: relative;
+    width: 168px;
+    height: 35px;
+    left: 200px;
+    bottom: 80px;
+    background-color: #316B83;
+    font-size: 24px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+  }
+.bapak4 {
+  position: relative;
+  bottom: -90px;
+  
+  
+  height: 190px;
+  width:420px;
+  background: #f7df96;
+  box-shadow: 0 2px 4px #f7df96;
+  border-bottom: 2px solid #f7df96;
+  border-top: 2px solid #f7df96;
+  border-right: 2px solid #f7df96;
+  border-left: 2px solid #f7df96;
+  }
+  .bapak4 img.poto4{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+  }
+  .bapak4 h6{
+    position: relative;
+    font-size: 25px;
+    font-family: "Roboto";
+    left: 200px;
+    bottom: 100px;
+  }
+  .gg{
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+    
+  }
+  p .jj{
+    position: relative;
+    left: 200px;
+  }
+  .gh{
+    position: relative;
+    width: 168px;
+    height: 35px;
+    left: 200px;
+    bottom: 80px;
+    background-color: #316B83;
+    font-size: 24px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+  }
+  .bapak5 {
+    position: relative;
+    bottom: 835px;
+    left: 450px;
+    
+    height: 190px;
+    width:420px;
+    background: #f7df96;
+    box-shadow: 0 2px 4px #f7df96;
+    border-bottom: 2px solid #f7df96;
+    border-top: 2px solid #f7df96;
+    border-right: 2px solid #f7df96;
+    border-left: 2px solid #f7df96;
+    }
+    .bapak5 img.poto5{
+      position: relative;
+      top: 30px;
+      left: 30px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius:10px;
+    }
+    .bapak5 h6{
+      position: relative;
+      font-size: 25px;
+      font-family: "Roboto";
+      left: 200px;
+      bottom: 100px;
+    }
+    .jj{
+      position: relative;
+      bottom: 100px;
+      left: 200px;
+      
+    }
+    p .jj{
+      position: relative;
+      left: 200px;
+    }
+    .gh{
+      position: relative;
+      width: 168px;
+      height: 35px;
+      left: 200px;
+      bottom: 80px;
+      background-color: #316B83;
+      font-size: 24px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+    }
+  .bapak6 {
+    position: relative;
+    bottom: 785px;
+    left: 450px;
+    
+    height: 190px;
+    width:420px;
+    background: #f7df96;
+    box-shadow: 0 2px 4px #f7df96;
+    border-bottom: 2px solid #f7df96;
+    border-top: 2px solid #f7df96;
+    border-right: 2px solid #f7df96;
+    border-left: 2px solid #f7df96;
+    }
+    .bapak6 img.poto6{
+      position: relative;
+      top: 30px;
+      left: 30px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius:10px;
+    }
+    .bapak6 h6{
+      position: relative;
+      font-size: 25px;
+      font-family: "Roboto";
+      left: 200px;
+      bottom: 100px;
+    }
+    .jj{
+      position: relative;
+      bottom: 100px;
+      left: 200px;
+      
+    }
+    p .jj{
+      position: relative;
+      left: 200px;
+    }
+    .gh{
+      position: relative;
+      width: 168px;
+      height: 35px;
+      left: 200px;
+      bottom: 80px;
+      background-color: #316B83;
+      font-size: 24px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+    }
+  .bapak7 {
+    position: relative;
+    bottom: 735px;
+    left: 450px;
+    
+    height: 190px;
+    width:420px;
+    background: #f7df96;
+    box-shadow: 0 2px 4px #f7df96;
+    border-bottom: 2px solid #f7df96;
+    border-top: 2px solid #f7df96;
+    border-right: 2px solid #f7df96;
+    border-left: 2px solid #f7df96;
+    }
+    .bapak7 img.poto7{
+      position: relative;
+      top: 30px;
+      left: 30px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius:10px;
+    }
+    .bapak7 h6{
+      position: relative;
+      font-size: 25px;
+      font-family: "Roboto";
+      left: 200px;
+      bottom: 100px;
+    }
+    .jj{
+      position: relative;
+      bottom: 100px;
+      left: 200px;
+      
+    }
+    p .jj{
+      position: relative;
+      left: 200px;
+    }
+    .gh{
+      position: relative;
+      width: 168px;
+      height: 35px;
+      left: 200px;
+      bottom: 80px;
+      background-color: #316B83;
+      font-size: 24px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+    }
+  .bapak8 {
+    position: relative;
+    bottom: 685px;
+    left: 450px;
+    
+    height: 190px;
+    width:420px;
+    background: #f7df96;
+    box-shadow: 0 2px 4px #f7df96;
+    border-bottom: 2px solid #f7df96;
+    border-top: 2px solid #f7df96;
+    border-right: 2px solid #f7df96;
+    border-left: 2px solid #f7df96;
+    }
+    .bapak8 img.poto8{
+      position: relative;
+      top: 30px;
+      left: 30px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius:10px;
+    }
+    .bapak8 h6{
+      position: relative;
+      font-size: 25px;
+      font-family: "Roboto";
+      left: 200px;
+      bottom: 100px;
+    }
+    .jj{
+      position: relative;
+      bottom: 100px;
+      left: 200px;
+      
+    }
+    p .jj{
+      position: relative;
+      left: 200px;
+    }
+    .gh{
+      position: relative;
+      width: 168px;
+      height: 35px;
+      left: 200px;
+      bottom: 80px;
+      background-color: #316B83;
+      font-size: 24px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+    }
+    .penutup{
+      position: relative;
+      bottom: 600px;
+      right: 110px;
+      width:1434px;
+      height:200px;
+      background-color: #316B83;
+    }

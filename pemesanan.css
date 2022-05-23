@@ -1,0 +1,134 @@
+@font-face {
+	font-family: 'Tuakngfont-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url(img/Tuakngfont-Regular.ttf);
+}
+
+.navbar {
+	background-color: #316b83;
+	height: 80px;
+}
+ul li a:hover {
+	background-color: rgb(214, 201, 16);
+	transition: 0.5s;
+}
+ul li a {
+	font-size: 20px;
+	padding: 5px;
+	margin-left: 20px;
+}
+.navbar-brand {
+	font-family: 'Tuakngfont-Regular';
+	position: relative;
+	font-size: 40px;
+	left: -100px;
+}
+
+ul img {
+	position: relative;
+	width: 40px;
+	bottom: -3px;
+	height: 40px;
+	margin-left: 3px;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+}
+.section {
+	background-color: #ffce31;
+	height: 175px;
+	position: relative;
+}
+.section h2 {
+	text-align: center;
+	padding: 60px;
+	font-family: 'Gill Sans MT';
+	font-weight: bold;
+	font-size: 38px;
+}
+.kanan {
+	position: relative;
+	margin-top: 45px;
+	width: 581px;
+	height: 367px;
+	border: 1px solid rgb(41, 38, 38);
+	border-radius: 50px;
+	margin-left: 50px;
+}
+.kanan p {
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 24px;
+}
+.kanan a {
+	position: relative;
+	left: 490px;
+	font-size: 24px;
+	bottom: 10px;
+}
+.kiri a {
+	position: relative;
+	left: 490px;
+	font-size: 24px;
+	top: 70px;
+}
+.kiri {
+	position: relative;
+	margin-top: 45px;
+	width: 581px;
+	height: 367px;
+	border: 1px solid rgb(41, 38, 38);
+	border-radius: 50px;
+	left: 720px;
+	bottom: 410px;
+}
+.kiri p {
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 24px;
+}
+.promo {
+	position: relative;
+	bottom: 300px;
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 1140px;
+	height: 210px;
+	border: 1px solid rgb(41, 38, 38);
+}
+.promo h2 {
+	text-align: left;
+	font-family: 'robooto';
+	font-size: 30px;
+	margin-top: 80px;
+	margin-left: 20px;
+}
+.promo input {
+	position: relative;
+	margin-left: 200px;
+	bottom: 50px;
+	width: 840px;
+	height: 80px;
+}
+footer {
+	margin-top: 2rem;
+	height: 230px;
+	background-color: #316b83;
+}
+.btn {
+	position: relative;
+	bottom: 120px;
+	background-color: #7dda81;
+	width: 300px;
+	height: 100px;
+	margin-left: 550px;
+}
+button:hover {
+	background-color: #ffce31;
+	transition: 0.5s;
+}
+.col-auto p {
+	padding: 10px;
+	font-size: 24px;
+}

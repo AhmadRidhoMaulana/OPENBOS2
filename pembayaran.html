@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+		<link rel="stylesheet" href="pembayaran.css" />
+		<title>Pembayaran</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container">
+				<a class="navbar-brand col-md-7" href="#">TUKANGKU</a>
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav mb-1 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="home.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#reviews">Reviews</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#service">Service</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#About">About</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Section </a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="pemesanan.html">Pemesanan</a></li>
+								<li><a class="dropdown-item" href="pembayaran.html">Pembayaran</a></li>
+								<li><a class="dropdown-item" href="daftar.html">Renovasi Rumah</a></li>
+								<li><a class="dropdown-item" href="air.html">Tuakang Keran</a></li>
+							</ul>
+						</li>
+						<img src="img/profil.jpg"  />
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="row justify-content-md-center">
+			<div class="col col-lg-4">
+				<h2 style="margin-top: 32px">Halaman Pembayaran</h2>
+				<h6 style="font-weight: bolder">*Alamat Bangunan:</h6>
+				<p>Jl. Melati, Perum Fajar Indah, Baturan, Karanganya</p>
+				<h6 style="font-weight: bolder">Tanggal membutuhkan Layanan :</h6>
+				<input type="date" placeholder="15 Januari 2021" />
+				<h6 style="font-weight: bolder">Waktu :</h6>
+				<input type="time" placeholder="09:00 WIB" />
+			</div>
+			<div class="col-md-auto"></div>
+			<div class="col col-lg-4" style="padding-left: 80px">
+				<h6 style="font-weight: bolder">Harga Total :</h6>
+				<input type="interger" placeholder="Rp.90000" />
+				<p style="font-weight: lighter">*Biaya sudah mencakup keseluruhan</p>
+				<h6 style="font-weight: bolder">Bayar Dengan :</h6>
+				<div class="menu">
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+						<label class="form-check-label" for="flexRadioDefault2"> Mandiri </label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+						<label class="form-check-label" for="flexRadioDefault2">BRI</label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+						<label class="form-check-label" for="flexRadioDefault2"> BCA </label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+						<label class="form-check-label" for="flexRadioDefault2"> Dana </label>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+						<label class="form-check-label" for="flexRadioDefault2"> Bayar di tempat/COD</label>
+					</div>
+				</div>
+				<button class="btn">Konfirmasi</button>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	</body>
+</html>

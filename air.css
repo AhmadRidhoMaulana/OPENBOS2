@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'Tuakngfont-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url(img/Tuakngfont-Regular.ttf);
+}
+
+.navbar {
+	background-color: #316b83;
+	height: 80px;
+}
+ul li a:hover {
+	background-color: rgb(214, 201, 16);
+	transition: 0.5s;
+}
+ul li a {
+	font-size: 20px;
+	padding: 5px;
+	margin-left: 20px;
+}
+.navbar-brand {
+	font-family: 'Tuakngfont-Regular';
+	position: relative;
+	font-size: 40px;
+	left: -100px;
+}
+
+ul img {
+	position: relative;
+	width: 40px;
+	bottom: -3px;
+	height: 40px;
+	margin-left: 3px;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+}
+.jumbotron {
+	background-color: #c4c4c4;
+	height: 497px;
+}
+.atas img {
+	position: relative;
+	width: 240px;
+	height: 230px;
+	top: 90px;
+	left: 40px;
+}
+.atas h6 {
+	position: relative;
+	font-size: 20px;
+	top: 110px;
+	margin-left: 100px;
+}
+.atas p {
+	position: relative;
+	font-size: 20px;
+	top: -60px;
+	margin-left: 500px;
+}
+.kate {
+	position: relative;
+	font-size: 40px;
+	font-family: 'PT Sans';
+	top: 170px;
+	margin-left: 20px;
+}
+.gambar1 {
+	position: relative;
+	margin-top: 50px;
+	margin-left: px;
+	height: 331px;
+	width: 80%;
+	top: 130px;
+	background: #ffff;
+}
+
+.foto1 {
+	position: relative;
+	top: 10px;
+	font-size: 20px;
+	margin-left: 120px;
+}
+.foto1 p {
+	margin-left: 100px;
+}
+.foto2 {
+	position: relative;
+	top: -290px;
+	font-size: 20px;
+	margin-left: 540px;
+	margin-top: 80px;
+}
+.foto2 p {
+	margin-left: 100px;
+}
+.foto3 {
+	position: relative;
+	top: -600px;
+	font-size: 20px;
+	margin-left: 950px;
+	margin-top: 55px;
+}
+.foto3 p {
+	margin-left: 100px;
+}
+.katu {
+	position: relative;
+	font-size: 40px;
+	font-family: 'PT sans';
+	top: 170px;
+	margin-left: 20px;
+}
+.gambar2 {
+	position: relative;
+
+	margin: 5% auto;
+	height: 331px;
+	width: 100%;
+	top: 130px;
+	background: #ffff;
+}
+.foto4 {
+	position: relative;
+	top: 10px;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.foto4 p {
+	margin-left: 100px;
+}
+.foto5 {
+	position: relative;
+	top: -250px;
+	font-size: 20px;
+	margin-left: 580px;
+}
+.foto5 p {
+	margin-left: 80px;
+}
+.foto6 {
+	position: relative;
+	top: -520px;
+	font-size: 20px;
+	margin-left: 1030px;
+}
+.foto6 p {
+	margin-left: 80px;
+}
+.col-9 {
+	text-align: center;
+	padding: 200px;
+	font-family: Poppins;
+	font-size: 20px;
+}
+footer {
+	background-color: #316b83;
+	height: 100px;
+}
+.btn {
+	margin-left: 550px;
+	margin-top: 60px;
+	margin-bottom: 70px;
+	width: 300px;
+	height: 100px;
+	background-color: #7dda81;
+	font-family: Gill Sans MT;
+	font-weight: bold;
+	font-size: 24px;
+}
+button:hover {
+	background-color: #ffce31;
+	transition: 0.5s;
+}

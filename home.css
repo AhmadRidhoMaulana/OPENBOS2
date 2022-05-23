@@ -1,0 +1,204 @@
+@font-face {
+	font-family: 'Tuakngfont-Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url(img/Tuakngfont-Regular.ttf);
+}
+
+.navbar {
+	background-color: #316b83;
+	height: 80px;
+}
+ul li a:hover {
+	background-color: rgb(214, 201, 16);
+	transition: 0.5s;
+}
+ul li a {
+	font-size: 20px;
+	padding: 5px;
+	margin-left: 20px;
+}
+.navbar-brand {
+	font-family: 'Tuakngfont-Regular';
+	position: relative;
+	font-size: 40px;
+	left: -100px;
+}
+
+ul img {
+	position: relative;
+	width: 40px;
+	bottom: -3px;
+	height: 40px;
+	margin-left: 3px;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+}
+#reviews {
+	text-align: center;
+	font-family: 'Elephant';
+	padding-top: 20px;
+	font-size: 24px;
+}
+#reviews .row {
+	background-color: #316b83;
+}
+#service {
+	text-align: center;
+	font-family: 'Elephant';
+	padding-top: 20px;
+	font-size: 24px;
+}
+.gambar {
+	height: 300px;
+	width: 1200px;
+}
+.gambar1 {
+	position: relative;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.menu {
+	background-color: #6e7582;
+	margin-top: 20px;
+	position: absolute;
+	width: 400px;
+	height: 100px;
+}
+.menu img {
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.menu a {
+	color: black;
+	margin-left: 50px;
+	font-family: 'PT Sans';
+	font-size: 24px;
+}
+#water {
+	width: 450px;
+	height: 270px;
+}
+.gambar2 {
+	position: relative;
+	bottom: 250px;
+	margin-left: 150px;
+}
+.menu1 {
+	margin-left: 320px;
+	background-color: #6e7582;
+	margin-top: 20px;
+	position: absolute;
+	width: 400px;
+	height: 100px;
+}
+.menu1 img {
+	width: 90px;
+	margin-top: 10px;
+}
+.menu1 a {
+	color: black;
+	margin-left: 50px;
+	font-family: 'PT Sans';
+	font-size: 24px;
+}
+#tv {
+	width: 400px;
+	height: 250px;
+}
+.gambar3 {
+	position: relative;
+	bottom: 500px;
+	margin-left: 940px;
+}
+.menu2 {
+	background-color: #6e7582;
+	margin-top: 20px;
+	position: absolute;
+	width: 400px;
+	height: 100px;
+}
+.menu2 img {
+	right: 200px;
+	width: 90px;
+	margin-top: 10px;
+}
+.menu2 a {
+	color: black;
+	font-family: 'PT Sans';
+	font-size: 24px;
+}
+.servicerate {
+	margin-top: 150px;
+	text-align: center;
+	position: relative;
+	font-family: 'Elephant';
+}
+.company {
+	width: fit-content;
+	height: 400px;
+}
+#join {
+	background-color: #316b83;
+	color: white;
+	font-family: 'Elephant';
+}
+#join .com1 {
+	position: relative;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#join .com2 {
+	position: relative;
+	margin-left: 460px;
+	bottom: 200px;
+}
+#join .com3 {
+	position: relative;
+	bottom: 420px;
+	margin-left: 900px;
+}
+.about {
+	background-color: #ffce31;
+	height: 610px;
+}
+.about h2 {
+	text-align: center;
+	font-family: 'elephant';
+}
+.about1 p {
+	font-size: 32px;
+	font-family: 'robooto';
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.about2 p {
+	position: relative;
+	font-size: 32px;
+	font-family: 'robooto';
+	margin-left: 720px;
+	bottom: 360px;
+}
+footer {
+	height: 200px;
+	background-color: #316b83;
+}
+footer h2 {
+	text-align: center;
+}
+#H {
+	float: left;
+	font-family: 'Elephant';
+	color: white;
+	margin: 80px;
+	margin-left: 200px;
+}
+#R {
+	float: right;
+	font-family: 'Elephant';
+	color: white;
+	margin: 80px;
+	margin-right: 200px;
+}
